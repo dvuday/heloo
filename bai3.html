@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Bài 3.1: Viết chương trình tính chu vi và diện tích hình chữ nhật.
+var lengthRectangle = parseFloat(prompt("Nhập chiều dài của hình chữ nhật:"));
+var widthRectangle = parseFloat(prompt("Nhập chiều rộng của hình chữ nhật:"));
+
+var perimeterRectangle = 2 * (lengthRectangle + widthRectangle);
+var areaRectangle = lengthRectangle * widthRectangle;
+
+console.log("Chu vi của hình chữ nhật là:", perimeterRectangle);
+console.log("Diện tích của hình chữ nhật là:", areaRectangle);
+
+// Bài 3.2: Viết chương trình tính chu vi và diện tích hình tròn.
+var radiusCircle = parseFloat(prompt("Nhập bán kính của hình tròn:"));
+
+var perimeterCircle = 2 * Math.PI * radiusCircle;
+var areaCircle = Math.PI * radiusCircle * radiusCircle;
+
+console.log("Chu vi của hình tròn là:", perimeterCircle);
+console.log("Diện tích của hình tròn là:", areaCircle);
+
+    </script>
+</body>
+</html>
